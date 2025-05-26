@@ -52,6 +52,9 @@ This cost-effective solution enables intuitive human-computer interaction with a
 ### Video Demo
 https://github.com/user-attachments/assets/6fd19683-ed17-433f-87e8-84d47cdd6341
 
+
+https://github.com/user-attachments/assets/aeace8d3-8143-4478-8e4d-4f7b11e8fe1a
+
 ---
 
 ## Hardware Requirements
@@ -152,9 +155,3 @@ MIT License
 ---
 
 
-[8] https://www.e2enetworks.com/blog/hand-gesture-recognition-using-ml-algorithms
-[9] https://www.mdpi.com/1424-8220/20/16/4566
-[10] https://www.slideshare.net/slideshow/hand-gesture-recognition-systemfyp-report-50225618/50225618
-
----
-Answer from Perplexity: pplx.ai/share
