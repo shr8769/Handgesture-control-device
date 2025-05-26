@@ -153,5 +153,9 @@ https://github.com/user-attachments/assets/aeace8d3-8143-4478-8e4d-4f7b11e8fe1a
 MIT License
 
 ---
+Built with ❤️ during my first semester as a hands-on learning experience.
+
+Feel free to fork, contribute, or use this as a learning base.
+---
 
 
