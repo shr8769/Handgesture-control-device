@@ -129,8 +129,8 @@ https://github.com/user-attachments/assets/aeace8d3-8143-4478-8e4d-4f7b11e8fe1a
 |------------------------------|------------------|--------------------------------------|
 | Both hands close             | Scroll Down      | ≤ 20cm both sensors                  |
 | Both hands medium            | Scroll Up        | 20–50cm both sensors                 |
-| Left hand close, right far   | Previous/Back    | Left ≤ 10cm, Right ≥ 30cm            |
-| Right hand close, left far   | Next/Forward     | Right ≤ 10cm, Left ≥ 30cm            |
+| Left hand close              | Previous/Back    | Left ≤ 10cm, Right ≥ 30cm            |
+| Right hand close             | Next/Forward     | Right ≤ 10cm, Left ≥ 30cm            |
 | Motion detection             | Play/Pause       | PIR sensor activation                |
 
 ---
@@ -143,6 +143,33 @@ https://github.com/user-attachments/assets/aeace8d3-8143-4478-8e4d-4f7b11e8fe1a
   Ensure sensors are powered and unobstructed.
 - **Python errors?**  
   Confirm all dependencies are installed and permissions are set.
+  To help users find the correct port for their Arduino, add a clear instruction section in your README. Here’s a concise statement you can include:
+
+---
+
+**Finding Your Arduino Port**
+
+Before running the Python script, make sure to check and update the serial port (`COM` port on Windows or `/dev/tty*` on Mac/Linux) in your script.  
+- **Windows:**  
+  1. Open the Arduino IDE.  
+  2. Go to **Tools > Port**.  
+  3. Note the port labeled with your Arduino board, e.g., `COM3 (Arduino Uno)`[2][4][6].  
+  4. Alternatively, open **Device Manager** and look under **Ports (COM & LPT)** for the Arduino port[4][6].
+
+- **Mac/Linux:**  
+  1. Open the Arduino IDE and check **Tools > Port** for a port like `/dev/cu.usbmodemXXXX`[2][4].  
+  2. Or, open Terminal and run:  
+     ```bash
+     ls /dev/tty*
+     ```
+     Look for a device such as `/dev/ttyACM0` or `/dev/ttyUSB0`[4].
+
+Update this port in your Python script:
+```python
+ArduinoSerial = serial.Serial('COM3', 9600)  # Replace 'COM3' with your actual port
+```
+
+
 
 ---
 
@@ -153,8 +180,7 @@ https://github.com/user-attachments/assets/aeace8d3-8143-4478-8e4d-4f7b11e8fe1a
 MIT License
 
 ---
-Built with ❤️ during my first semester as a hands-on learning experience.
-
+Built with ❤️ during my fourth semester as a hands-on learning experience.
 Feel free to fork, contribute, or use this as a learning base.
 ---
 
