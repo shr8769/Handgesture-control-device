@@ -50,8 +50,7 @@ This cost-effective solution enables intuitive human-computer interaction with a
 ![image](https://github.com/user-attachments/assets/8b2f16c1-5b32-46a4-ad30-997585188d29)
 
 ### Video Demo
-
-[![Demo Video](docs/videos/demo_thumbnail.jpg)](docs/videos/demo_video.mp4) 
+https://github.com/user-attachments/assets/6fd19683-ed17-433f-87e8-84d47cdd6341
 
 ---
 
